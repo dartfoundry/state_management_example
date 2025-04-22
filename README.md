@@ -31,20 +31,20 @@ core components:
 ```mermaid
 graph TD
     subgraph "Core Components"
-        StateStore["StateStore&lt;T&gt;\n- Holds state\n- Provides stream\n- Updates state"]
-        StateManager["StateManager\n- Registers stores\n- Retrieves stores by type"]
+        StateStore["StateStore&lt;T&gt; - Holds state, provides stream and updates state"]
+        StateManager["StateManager - Registers stores and retrieves stores by type"]
     end
 
     subgraph "Provider Components"
-        StateProvider["StateProvider\n- Makes StateManager available\n- Root widget"]
-        StateConsumer["StateConsumer&lt;T&gt;\n- Listens to store changes\n- Rebuilds on any state change"]
-        StateSelector["StateSelector&lt;T,S&gt;\n- Optimized rebuilds\n- Selects part of state"]
+        StateProvider["StateProvider - Makes StateManager available - Root widget"]
+        StateConsumer["StateConsumer&lt;T&gt; - Listens to store changes and rebuilds on any state change"]
+        StateSelector["StateSelector&lt;T,S&gt; - Optimized rebuilds and selects part of state"]
     end
 
     subgraph "State Domains"
-        AuthState["AuthState\n- User auth info"]
-        ProductState["ProductState\n- Product catalog\n- Filtering"]
-        CartState["CartState\n- Shopping cart items\n- Checkout process"]
+        AuthState["AuthState - User auth info"]
+        ProductState["ProductState - Product catalog and filtering"]
+        CartState["CartState - Shopping cart items and checkout process"]
     end
 
     subgraph "UI Layer"
