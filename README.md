@@ -9,7 +9,7 @@ This project is included in our 4 Part mini-series about state management, and d
 You can read the full series at:
  - [Flutter State Management: Beyond Packages (Part 1)](https://medium.com/dartfoundry/ac3e48fdf24b)
  - [Flutter State Management: Beyond Packages (Part 2)](https://medium.com/dartfoundry/ba29881cdd25)
- - [Flutter State Management: Beyond Packages (Part 3)](https://medium.com/dartfoundry/)
+ - [Flutter State Management: Beyond Packages (Part 3)](https://medium.com/dartfoundry/d3073aebacd2)
  - Flutter State Management: Beyond Packages (Part 4) - Coming Soon
 
 [![Screenshots](media/screenshots.png)](https://github.com/dartfoundry/state_management_example)
