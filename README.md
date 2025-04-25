@@ -10,7 +10,7 @@ You can read the full series at:
  - [Flutter State Management: Beyond Packages (Part 1)](https://medium.com/dartfoundry/ac3e48fdf24b)
  - [Flutter State Management: Beyond Packages (Part 2)](https://medium.com/dartfoundry/ba29881cdd25)
  - [Flutter State Management: Beyond Packages (Part 3)](https://medium.com/dartfoundry/d3073aebacd2)
- - Flutter State Management: Beyond Packages (Part 4) - Coming Soon
+ - [Flutter State Management: Beyond Packages (Part 4)](https://medium.com/dartfoundry/4015b05e68d4)
 
 [![Screenshots](media/screenshots.png)](https://github.com/dartfoundry/state_management_example)
 
